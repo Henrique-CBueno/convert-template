@@ -160,3 +160,15 @@ footer h1 {
   line-height: 3rem;
   word-break: break-all;
 }
+
+/* Para o Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para o Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
